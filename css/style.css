@@ -178,6 +178,10 @@ footer{
     color: white;
     font-size: 56px;
   }
+
+  figure.snip1181 svg {
+    width: 56px !important;
+  }
   figure.snip1181 a {
     left: 0;
     right: 0;
