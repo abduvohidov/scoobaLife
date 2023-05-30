@@ -64,7 +64,6 @@ footer{
   }
   
   input[type=submit] {
-    margin-top:10px;
     background-color: #002347;
     color: white;
     font-weight:bold;
@@ -74,7 +73,6 @@ footer{
     cursor: pointer;
     float: right;
     transition: 200ms;
-
   }
   
   input[type=submit]:hover {
@@ -639,11 +637,6 @@ footer{
 
 
 /*************************** DEFAULT ****************************/
-body{
-    margin:0;
-    overflow-x:hidden !important;
-    font-family: 'Poppins', sans-serif;
-}
 
 a{
     text-decoration:none !important;
@@ -676,6 +669,10 @@ fieldset{
 
 .title{
     color:var(--primary);
+}
+
+#generic_price_table_home{
+    font-family: 'Raleway', sans-serif;
 }
 
 .flex, .fixed_flex{

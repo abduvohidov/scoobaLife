@@ -1,7 +1,11 @@
-@media (min-width: 1200px) {
-}
-#generic_price_table_home{
-	 font-family: 'Raleway', sans-serif;
+@media (max-width: 1199px) {
+    .mt-maxLG-5{
+        margin-top: 3rem !important;
+    }
+    .mx-lg-auto{
+        margin-right: auto!important;
+        margin-left: auto!important;
+    }
 }
 
 @media (max-width:1100px){
@@ -11,6 +15,12 @@
     
     footer .flex:first-child .flex-content{
         flex: 1 1 40%;
+    }
+}
+
+@media(max-width: 991px) {
+    #formSignUp{
+        display: none !important;
     }
 }
 
@@ -39,6 +49,22 @@
 	#generic_price_table .generic_content{
 		margin-bottom:75px;
 	}
+    #sectionAboutus .container h3 {
+        font-size: 18px;
+    }
+    #sectionAboutus .container p {
+        font-size: 11px;
+    }
+    .carousel-item{
+        height: 100% !important;
+    }
+    .mt-maxSM-5{
+        margin-top: 3rem !important;
+    }
+    .mx-sm-auto{
+        margin-right: auto!important;
+        margin-left: auto!important;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	#generic_price_table .col-md-3{
@@ -54,6 +80,20 @@
 	#generic_price_table .generic_content{
 		margin-bottom:75px;
 	}
+}
+
+@media( max-width: 576px){
+    .w-sm-75{
+        width: 75% !important;
+    }
+    .generic_content{
+        width: 80%;
+        margin: auto;
+    }
+    .content-container{
+        width: 80% !important;
+        margin: auto !important;
+    }
 }
 
 @media (max-width:320px){
