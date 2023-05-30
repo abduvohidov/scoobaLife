@@ -44,7 +44,8 @@ footer{
     height: 100vh !important;
 }
 
-/* ===== Section Form ===== */
+        /* ===== Section Form ===== */
+
   /************ BEGIN CONTENT CONTAINER  ***************/
   
   
@@ -470,36 +471,6 @@ footer{
 	-o-transition: all 0.3s ease-in-out 0s;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 } 
-@media (max-width: 320px) {	
-}
-
-@media (max-width: 767px) {
-	#generic_price_table .generic_content{
-		margin-bottom:75px;
-	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	#generic_price_table .col-md-3{
-		float:left;
-		width:50%;
-	}
-	
-	#generic_price_table .col-md-4{
-		float:left;
-		width:50%;
-	}
-	
-	#generic_price_table .generic_content{
-		margin-bottom:75px;
-	}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-@media (min-width: 1200px) {
-}
-#generic_price_table_home{
-	 font-family: 'Raleway', sans-serif;
-}
 
 .text-center h1,
 .text-center h1 a{
@@ -660,16 +631,14 @@ footer{
 	text-decoration:none;
 }
 
-  /* ===== Price ===== */
+    /* ===== Price ===== */
 
 
 
-/* ===== Footer ===== */
+    /* ===== Footer ===== */
 
 
-/***************************
-            DEFAULT
-****************************/
+/*************************** DEFAULT ****************************/
 body{
     margin:0;
     overflow-x:hidden !important;
@@ -722,6 +691,10 @@ fieldset{
     padding:1rem;
 }
 
+.padding_1x h3 {
+    font-size: 20px;
+}
+
 .padding_2x{
     padding:2rem;
 }
@@ -765,29 +738,9 @@ fieldset{
     color:var(--secondary);
 }
 
-@media (max-width:920px){
-    .flex{
-        flex-wrap:wrap;
-    }
-    
-    .padding_1x, .padding_2x, .padding_3x, .padding_4x{
-        padding:1rem;
-    }
-  
-    .btn{
-        padding:0.5rem 1rem;
-    }
-    
-    a, p{
-        font-size:12px;
-    }
-}
 
 
-
-/***************************
-               FOOTER
-****************************/
+/*************************** FOOTER ****************************/
 footer{
     background-color:var(--primary);
     color:var(--lite);
@@ -856,26 +809,3 @@ footer .flex:last-child a:hover{
     background-color:var(--secondary);
     color:var(--gray);
 }
-
-@media (max-width:1100px){
-    footer .flex:first-child{
-        flex-wrap:wrap;
-    }
-    
-    footer .flex:first-child .flex-content{
-        flex: 1 1 40%;
-    }
-}
-
-@media (max-width:920px){
-    footer .flex:last-child .flex-content:last-child{
-        text-align:left;
-    }
-}
-
-@media (max-width:320px){
-    footer .flex:first-child .flex-content{
-        flex:1 1 100%;
-    }
-}
-
