@@ -22,6 +22,13 @@
     #formSignUp{
         display: none !important;
     }
+    .sectionTop{
+        margin: 100px auto !important;
+    }
+    .price-heading h1 {
+        padding: 0 0 20px 0 !important;
+    }
+
 }
 
 @media (max-width:920px){
@@ -56,7 +63,7 @@
         font-size: 11px;
     }
     .carousel-item{
-        height: 100% !important;
+        height: 400px !important;
     }
     .mt-maxSM-5{
         margin-top: 3rem !important;
